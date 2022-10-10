@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700&display=swap");
+@font-face {
+  font-family: "Neutral Face";
+  src: url(./../meida/fonts/NeutralFace.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: 1496px;
+  display: flex;
+  height: 100%;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+main {
+  margin-left: 150px;
+}
+
+header {
+  color: white;
+  background: black;
+  height: 100vh;
+  width: 150px;
+  position: relative;
+  padding: 80px 0;
+  position: fixed;
+}
+header .logo {
+  font-family: "Neutral Face";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  height: 183px;
+}
+header .logo p {
+  transform: rotate(-90deg);
+  width: 183px;
+}
+header .wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+header ul {
+  margin: 0;
+  padding: 0;
+}
+header li {
+  margin-bottom: 20px;
+}
+header li:last-child {
+  margin-bottom: 0;
+}
+
+.menu__btn {
+  width: 45px;
+  height: 20px;
+  position: relative;
+  cursor: pointer;
+}
+.menu__btn .line {
+  border: 2px solid #FFFFFF;
+  width: 100%;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.top {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  color: white;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.top .bg {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.top .container {
+  padding: 83px 0;
+}
+
+.top__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 160px;
+}
+.top__top ul {
+  display: flex;
+}
+.top__top li {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+}
+.top__top li::before {
+  content: "";
+  background: #00C2FF;
+  border-radius: 50%;
+  display: block;
+  width: 10px;
+  margin-right: 7px;
+  height: 10px;
+}
+.top__top .logo {
+  margin-right: 63px;
+}
+.top__top button {
+  border: 3px solid #FF964C;
+  border-radius: 66px;
+  background: none;
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 19px 40px;
+  color: #FFFFFF;
+}
+
+.cont {
+  display: flex;
+}
+
+.top__center h1 {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 128px;
+  margin-bottom: 50px;
+}
+.top__center ul {
+  margin-bottom: 50px;
+}
+.top__center li {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.top__center li::before {
+  content: "";
+  display: block;
+  margin-right: 23px;
+  background: #FF964C;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+}
+.top__center li:last-child {
+  width: 554px;
+  margin-bottom: 0;
+}
+.top__center li span {
+  color: #FF964C;
+}
+.top__center .buttons {
+  display: flex;
+  margin-bottom: 160px;
+}
+.top__center .make {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  border: 3px solid #FFFFFF;
+  border-radius: 66px;
+  padding: 19px 65px;
+  background: none;
+  color: white;
+  margin-right: 48px;
+}
+.top__center .port {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+  background: none;
+  border: none;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.top__center .port .serc {
+  margin-right: 19px;
+}
+.top__center .port .border {
+  position: absolute;
+}
+
+.top__deckription {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #B8B8B8;
+  width: 478px;
+}/*# sourceMappingURL=style.css.map */
